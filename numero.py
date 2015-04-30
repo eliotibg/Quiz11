@@ -1,0 +1,19 @@
+def num():
+	s=0
+	c=0
+	p=0
+	a=open("numeros.txt")
+	n=a.readline()
+	n=n.rstrip("\n")
+	n=int(n)
+	while(n!=''):
+		n2=int(n)
+		s=s+n2
+		c=c+1
+		print(n)
+		n=a.readline()
+	p=s/c
+	print("La sumatoria de todos los numero es: ",s)
+	print("Todos los numero leidos son: ",c)
+	print("El primedio es: ",p)
+num()
