@@ -12,4 +12,4 @@ def check_banana():
 		lineas=archivo.readlines()
 	return n
 d=check_banana()
-print (d)
+print ("La palabra Banana se encontro ",d, " beses ")
